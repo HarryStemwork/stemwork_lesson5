@@ -1,0 +1,8 @@
+abc = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+front3 = #how to take the first 3 in a list
+end23 = #how to take the last 23 in a list
+subText = end23 + front3
+
+word = #how to let user input
+for char in word:
+    print(subText[abc.index(char.upper())], end="")
